@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: httpd-static-pod
+spec:
+  containers:
+    - name: httpd-c
+      image: httpd
+
